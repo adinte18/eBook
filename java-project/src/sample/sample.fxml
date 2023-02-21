@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?impot ?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ListView fx:id="list_view" layoutX="17.0" layoutY="92.0" onMouseClicked="#handleMouseClick" prefHeight="512.0" prefWidth="483.0" />
+      <Button fx:id="button_download" layoutX="205.0" layoutY="30.0" mnemonicParsing="false" onAction="#downloadButton" text="Telecharger" />
+      <TextField fx:id="searchBar" layoutX="310.0" layoutY="30.0" prefHeight="25.0" prefWidth="364.0" />
+      <Text layoutX="196.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Livres disponibles" wrappingWidth="95.13671875" />
+      <ListView fx:id="mes_livres" layoutX="500.0" layoutY="92.0" onMouseClicked="#getBook" prefHeight="512.0" prefWidth="483.0" />
+      <Text layoutX="724.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mes livres" wrappingWidth="60.0" />
+      <Button fx:id="add_button" layoutX="736.0" layoutY="30.0" mnemonicParsing="false" onAction="#switchToScene1" text="Lire" />
+   </children>
+</AnchorPane>
